@@ -1,6 +1,8 @@
 # HBO Website
 
-Recreación de la página web de HBO Max realizada como proyecto académico.
+Recreación de la página web de **HBO Max** realizada como proyecto académico.
+
+> Proyecto realizado previamente para mi titulación de DAW y publicado posteriormente en GitHub como parte de mi portfolio.
 
 ## Tecnologías utilizadas
 
@@ -17,12 +19,12 @@ Recreación de la página web de HBO Max realizada como proyecto académico.
 
 ## Captura
 
-![HBO Max Website](screenshot.png)
+![HBO Max Website](screenshot.jpg)
 
-## Proyecto online
+## Cómo ejecutar el proyecto
 
-[Ver proyecto](https://TU_USUARIO.github.io/hbo-max-website/)
+No requiere instalación ni dependencias. Abre `index.html` en un navegador web o a través del link de github pages https://sofirr06.github.io/02_HBO-Website-Recreation/ .
 
 ## Nota
 
-Proyecto realizado con fines educativos para la asignatura Lenguaje de Marcas de DAW. No está afiliado a HBO Max ni pretende ser una reproducción oficial de su página web.
+Proyecto realizado con fines educativos para la asignatura Lenguaje de Marcas de DAW. No está afiliado a HBO Max ni pretende ser una reproducción oficial de su página web. El contenido y las imágenes se utilizaron con fines educativos.
