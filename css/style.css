@@ -1,0 +1,153 @@
+/* Local font definition */
+@font-face {
+    font-family: gilroy;
+    src: url(../font/Gilroy-Regular.woff2);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "gilroy";
+    color: white;
+    background-color: black;
+}
+
+.container {
+    background-color: black;
+    width: 95%;
+    margin: 14px auto;
+}
+
+header {
+    height: 10%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding-bottom: 15px;
+    padding-top: 15px;
+    position: fixed;
+}
+
+main {
+    height: auto;
+    padding-top: 5%;
+}
+
+footer {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 18%;
+    color: #938dcb;
+    background-color: #040426;
+}
+
+.row {
+    display: flex;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.btn { 
+    border: 0;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.btn-purple {
+    color: white;
+    background-color: #a744ed;
+    padding: 10px 20px;
+}
+
+nav ul,
+nav li {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    list-style-type: none;
+    float: left;
+    font-size: 18px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.m-l{
+    margin-left: 15px;
+}
+
+.m-l2{
+    margin-left: 120px;
+}
+
+.m-r{
+    margin-right: 15px;
+}
+
+.fondo {
+    background-image: url(../img/portada-principal.avif);
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.col-8 {
+    width: 24%;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.img-container img {
+    transition: transform 0.4s ease;
+}
+
+.img-container img:hover {
+    transform: scale(1.05);
+}
+
+.m-b15 {
+    margin-bottom: 15px;
+}
+
+.m-t15 {
+    margin-top: 15px;
+}
+
+.color-purple{
+    color: #938dcb;
+}
+
+.element:hover{
+    background-color: #a744ed;
+}
+
+.p-top{
+    padding-top: 10px;
+}
